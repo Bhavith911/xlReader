@@ -1,4 +1,4 @@
-/* Container for the upload input */
+
 .file-upload-container {
     width: 100%;
     max-width: 400px;
@@ -7,7 +7,7 @@
     padding: 20px;
   }
   
-  /* Style for the label to make it look like a button */
+
   .file-upload-label {
     display: inline-block;
     background-color: #4caf50;
@@ -21,30 +21,28 @@
     text-align: center;
   }
   
-  /* Style for the icon next to the text */
+
   .upload-icon {
     font-size: 24px;
     margin-right: 8px;
   }
   
-  /* File input is hidden but still functional */
+
   .file-upload-input {
     display: none;
   }
   
-  /* Style for when the label is hovered */
+
   .file-upload-label:hover {
     background-color: #45a049;
   }
   
-  /* File information section */
   .file-info {
     margin-top: 15px;
     font-size: 14px;
     color: #333;
   }
-  
-  /* Responsive adjustments */
+
   @media (max-width: 768px) {
     .file-upload-container {
       padding: 15px;
